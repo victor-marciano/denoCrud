@@ -1,0 +1,29 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  
+  "scripts": {
+    "start": {
+      "cmd": "deno run index.ts",
+      "desc": "Iniciando o servidor",
+
+      "allow": [                
+        "run",
+        "net",
+        "read",
+        "env"                
+      ],
+      
+      "unstable": true
+    },
+    "seed": {
+      "cmd": "deno run database/seed.ts",
+      "allow": [                
+        "run",
+        "net",
+        "read",
+        "env"                
+      ],
+      "unstable": true
+    }
+  }
+}
