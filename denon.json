@@ -16,7 +16,7 @@
       "unstable": true
     },
     "seed": {
-      "cmd": "deno run database/seed.ts",
+      "cmd": "deno run database/seeders/seed.ts",
       "allow": [                
         "run",
         "net",

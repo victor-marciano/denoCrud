@@ -9,8 +9,8 @@ await db.sync({
     drop: false 
 });
 
-const Model = {
+const ModelList = {
     User
 }
 
-export { Model };
+export { ModelList };
